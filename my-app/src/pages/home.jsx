@@ -24,7 +24,7 @@ export default function Home(){
                             I'm excited to connect and explore opportunities where I can make an impact! If you're looking for a dedicated and driven engineering student, please reach out!</p>   
                             <div className="flex flex-row">
                                 <button><Link to="/technical">Projects</Link></button>
-                                <button><Link to="/qualifications">Qualifications</Link></button>
+                                <button><Link to="/portfolio">Qualifications</Link></button>
                             </div>
                             
                     </div>
