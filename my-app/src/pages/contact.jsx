@@ -1,8 +1,8 @@
 export default function Contact(){
 
     return(<>
-        <div className="flex flex-row justify-center items-center w-11/12 mx-auto">
-           <div className="block min-w-3/4 min-h-100">
+        <div className="page-row">
+           <div className="block w-1/2">
                 <div>
                     <h1>I'd love to hear from you! Please reach out! </h1>
                 </div>
@@ -20,8 +20,8 @@ export default function Contact(){
                         <input type="submit" value="Send" className="button"/>
                     </form>
             </div>
-            <div className="flex min-h-100 min-w-1/4 items-center">
-                    <div className="flex items-center justify-center w-full">
+            <div className="w-1/4 flex items-center justify-center">
+                    <div className="flex items-center justify-center">
                         <img src="./images/profile.JPG" alt="Sara Vorhaben Profile Photo" className="rounded-full w-32 h-32"/>
                         <div className="m-4">
                         <p className="text-3xl ">Sara Vorhaben</p>

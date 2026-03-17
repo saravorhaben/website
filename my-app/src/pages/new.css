@@ -46,6 +46,14 @@ h2{
     justify-content:center;
     min-width: 100%;
 }
+.page-row{
+    margin-top: 1em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    min-width: 100%;
+    padding: 2em;
+}
 .mainContent{
     margin: 2em;
     
