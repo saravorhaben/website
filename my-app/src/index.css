@@ -1,0 +1,30 @@
+
+@import "tailwindcss";
+
+/* Colors: */
+/* Blue #518CA4 */
+/* Blue-Hover #477f96*/
+/* COLORS
+#518CA4 - Blue
+#88AB75 - Green
+#508AA8 - Blue2
+#3DA5D9 - Light Blue
+#333333 - Dark Grey
+*/
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
