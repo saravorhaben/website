@@ -9,13 +9,40 @@ export default function Technical(){
         <h2>Completed Projects</h2>
         <div className="grid grid-cols-3 gap-4 p-4">
             <div className="block">
+                <img src="./images/ShareTeaLogo.png" alt="Share Tea Logo"/>
                 <p><strong>ShareTea POS</strong></p>
+                <div className= "overlay">
+                    <p>Developed an interface to improve checkout for ShareTea for customers and a new POS system for employees.</p>
+                    <p><strong>Dates:</strong> January 2025 - May 2025</p>
+                    <p><strong>Technologies: </strong> React, Java, JavaScript, PostgreSQL, Tailwind CSS, Github Projects, API integraton</p>
+                </div>
+                <div className="p-4 flex space-between">
+                <a className="button"  href=" https://project3deployment.onrender.com">Frontend Link</a>
+                <a className="button" href="https://project3deployment-backend.onrender.com/">Backend Link</a>
+            </div></div>
+            <div className="block ">
+                <img src="./images/theo.jpg" alt="Theo Logo"/>
+                <p><strong>Theo</strong></p>
+                <div className= "overlay">
+                    <p>Developed a web application to connect tutors to students at their school.</p>
+                    <p><strong>Dates: </strong> May 2025 - August 2025</p>
+                    <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, Figma, Github Projects, Google OAuth</p>
+                </div>
+                <div className="p-4 flex space-between">
+                <a className="button"  href="theo.teamup.org">Theo Site</a>
+                </div>
             </div>
             <div className="block">
-                <p><strong>ShareTea POS</strong></p>
-            </div>
-            <div className="block">
-                <p><strong>ShareTea POS</strong></p>
+                <img src="./images/Legion.png" alt="Legion Logo"/>
+                <p><strong>Legion Men's Organization</strong></p>
+                <div className= "overlay">
+                    <p>Developed a web application for Legion Men's Organization allowing them to keep track of members, volunteer hours, and events.</p>
+                    <p><strong>Dates:</strong> August 2025 - December 2025</p>
+                    <p><strong>Technologies: </strong>Ruby on Rails, Tailwind CSS, Figma, Docker, Heroku, Github Projects, Google OAuth</p>
+                </div>
+                <div className="p-4 flex space-between">
+                <a className="button"  href="https://legion-tamu-7a09206fbac4.herokuapp.com/">Legion Site</a>
+                </div>
             </div>
 
         </div>
@@ -23,10 +50,29 @@ export default function Technical(){
         <h2>In Progress Projects</h2>
         <div className="grid grid-cols-3 gap-4 p-4">
             <div className="block">
+                <img src="./images/wranglers.png" alt="Team Logo" className="gridImg"/>
                 <p><strong>School Pick Up System</strong></p>
+                <div className= "overlay">
+                    <p>Working on developing a school pick up system for students being picked up from school.</p>
+                    <p><strong>Dates:</strong> January 2026 - Ongoing</p>
+                    <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, ClickUp, Supabase, Python, JavaScript, Google OAuth</p>
+                </div>
+                <div className="p-4 flex space-between">
+                <a className="button"  href="https://github.com/JackUehlingerTAMU/TheWranglers">GitHub</a>
+                <a className="button"  href="https://thewranglers.onrender.com/">Currently Deployed Version</a>
+                </div>
             </div>
             <div className="block">
+                <img src="./images/Keeper.jpg" alt="Keeper Logo"/>
                 <p><strong>Keeper</strong></p>
+                <div className= "overlay">
+                    <p>Working on developing a stat tracker for sports teams.</p>
+                    <p><strong>Dates:</strong> August 2025 - Ongoing</p>
+                    <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, Supabase, JavaScript, Google OAuth</p>
+                </div>
+                <div className="p-4 flex space-between">
+                <a className="button"  href="https://github.com/saravorhaben/SportStats/">Github</a>
+                </div>
             </div>
             
 
