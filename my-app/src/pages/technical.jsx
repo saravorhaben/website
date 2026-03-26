@@ -7,7 +7,7 @@ export default function Technical(){
        
 
         <h2>Completed Projects</h2>
-        <div className="grid grid-cols-3 gap-4 p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
             <div className="block">
                 <img src="./images/ShareTeaLogo.png" alt="Share Tea Logo"/>
                 <p><strong>ShareTea POS</strong></p>
@@ -48,7 +48,7 @@ export default function Technical(){
         </div>
         
         <h2>In Progress Projects</h2>
-        <div className="grid grid-cols-3 gap-4 p-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
             <div className="block">
                 <img src="./images/wranglers.png" alt="Team Logo" className="gridImg"/>
                 <p><strong>School Pick Up System</strong></p>
@@ -77,8 +77,7 @@ export default function Technical(){
             
 
         </div>
-        <h2>GitHub Activity</h2>
-        <GitHubCalendar username="saravorhaben" />
+       
             {/* <div className="wholePage">
     
                 {/* {Projects} */}

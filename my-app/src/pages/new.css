@@ -46,13 +46,21 @@ h2{
     justify-content:center;
     min-width: 100%;
 }
-.page-row{
+.pages {
     margin-top: 1em;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    min-width: 100%;
-    padding: 2em;
+    display: flex;
+}
+
+.page-row {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+.page-col {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
 }
 .mainContent{
     margin: 2em;
