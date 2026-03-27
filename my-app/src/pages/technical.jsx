@@ -14,7 +14,7 @@ export default function Technical(){
                 <div className= "overlay">
                     <p>Developed an interface to improve checkout for ShareTea for customers and a new POS system for employees.</p>
                     <p><strong>Dates:</strong> January 2025 - May 2025</p>
-                    <p><strong>Technologies: </strong> React, Java, JavaScript, PostgreSQL, Tailwind CSS, Github Projects, API integraton</p>
+                    <p><strong>Technologies: </strong> React, Java, JavaScript, PostgreSQL, Tailwind CSS, GitHub Projects, API integration</p>
                 </div>
                 <div className="p-4 flex space-between">
                 <a className="button"  href=" https://project3deployment.onrender.com">Frontend Link</a>
@@ -57,7 +57,7 @@ export default function Technical(){
                     <p><strong>Dates:</strong> January 2026 - Ongoing</p>
                     <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, ClickUp, Supabase, Python, JavaScript, Google OAuth</p>
                 </div>
-                <div className="p-4 flex space-between">
+                <div className="p-4 flex space-between justify-center text-center">
                 <a className="button"  href="https://github.com/JackUehlingerTAMU/TheWranglers">GitHub</a>
                 <a className="button"  href="https://thewranglers.onrender.com/">Currently Deployed Version</a>
                 </div>

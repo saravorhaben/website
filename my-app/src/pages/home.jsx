@@ -18,7 +18,7 @@ export default function Home(){
                  
                     <div className="flex flex-col m-4 justify-center items-center rounded-xl">
                         <div className="greeting">
-                            <h2 className="text-4xl mb-4 font-bold text-[#477f96]">Howdy!</h2> 
+                            <h1 className="text-4xl mb-4 font-bold text-[#477f96]">Howdy!</h1> 
                         </div >   
                         <p className="welcome_pg">My name is Sara Vorhaben and I'm a Senior Computer Engineering Student at Texas A&M University from Cypress, Texas. I am currently seeking a summer internship, where I can contribute my expertise in software development while gaining hands-on experience in a professional environment. Through my classes and projects, I've built a strong foundation in C++, Python, UX Design, and web development, and I would love to be a part of your team!
                             I'm excited to connect and explore opportunities where I can make an impact! If you're looking for a dedicated and driven engineering student, please reach out!</p>   
