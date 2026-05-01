@@ -4,10 +4,22 @@ import Contact from "./contact";
 export default function Resume(){
     return(<>
     <Title titleName="Resume"/>
-    <div class="page">
+    <div class="Gradient ">
         {/* <!-- BAR --> */}
-        <div class= "buttonBar">
-            <a  href="../../images/SaraVorhabenResume_Spring2026.pdf" className="button">Download PDF Resume</a>
+        <div className="button-bar-full">
+        <div className="button-bar-left">
+        <h1 className="name stack-sans-text-sans">Sara Vorhaben</h1>
+        </div>
+        <div className= "button-bar-right  ">
+            
+            <a  href="../../images/SaraVorhabenResume_Spring2026.pdf" className="opaque-button flex flex-row">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+            Download Resume</a>
+            <a  href="https://github.com/saravorhaben" className="opaque-button"><img src="https://cdn.simpleicons.org/github" alt="GitHub"   width="32"/></a>
+            <a  href="https://www.linkedin.com/in/sara-vorhaben/" className="opaque-button"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn"    width="32"/></a>
+        </div>
         </div>
         <div class="mainContent">
             <div className="block">

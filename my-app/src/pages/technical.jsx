@@ -5,9 +5,22 @@ export default function Technical(){
     return(<>
         <Title titleName="Projects" />
        
-
-        <h2>Completed Projects</h2>
+        <div className="Gradient">
+        <h2 className="text-white stack-sans-text-sans pt-4 pl-4">Completed Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+            <div className="block">
+                <img src="./images/wranglers.png" alt="Team Logo" className="gridImg"/>
+                <p><strong>School Pick Up System</strong></p>
+                <div className= "overlay">
+                    <p>Working on developing a school pick up system for students being picked up from school.</p>
+                    <p><strong>Dates:</strong> January 2026 - Ongoing</p>
+                    <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, ClickUp, Supabase, Python, JavaScript, Google OAuth</p>
+                </div>
+                <div className="p-4 flex space-between justify-center text-center">
+                <a className="button"  href="https://github.com/saravorhaben/Team3-The-Wranglers-Capstone-Repo">GitHub</a>
+                <a className="button"  href="https://thewranglers.onrender.com/">Deployed Version</a>
+                </div>
+            </div>
             <div className="block">
                 <img src="./images/ShareTeaLogo.png" alt="Share Tea Logo"/>
                 <p><strong>ShareTea POS</strong></p>
@@ -47,21 +60,9 @@ export default function Technical(){
 
         </div>
         
-        <h2>In Progress Projects</h2>
+        <h2 className="text-white stack-sans-text-sans pt-4 pl-4">In Progress Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
-            <div className="block">
-                <img src="./images/wranglers.png" alt="Team Logo" className="gridImg"/>
-                <p><strong>School Pick Up System</strong></p>
-                <div className= "overlay">
-                    <p>Working on developing a school pick up system for students being picked up from school.</p>
-                    <p><strong>Dates:</strong> January 2026 - Ongoing</p>
-                    <p><strong>Technologies: </strong>React, PostgreSQL, Tailwind CSS, ClickUp, Supabase, Python, JavaScript, Google OAuth</p>
-                </div>
-                <div className="p-4 flex space-between justify-center text-center">
-                <a className="button"  href="https://github.com/JackUehlingerTAMU/TheWranglers">GitHub</a>
-                <a className="button"  href="https://thewranglers.onrender.com/">Currently Deployed Version</a>
-                </div>
-            </div>
+            
             <div className="block">
                 <img src="./images/Keeper.jpg" alt="Keeper Logo"/>
                 <p><strong>Keeper</strong></p>
@@ -76,6 +77,7 @@ export default function Technical(){
             </div>
             
 
+        </div>
         </div>
        
             {/* <div className="wholePage">
