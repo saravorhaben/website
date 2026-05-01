@@ -8,7 +8,7 @@ export default function Home(){
     
                 <Title titleName="Sara Vorhaben" />
                 
-                <div className="Gradient flex justify-center items-center h-[90vh]" >
+                <div className="Gradient flex justify-center items-center min-h-dvh " >
                 <div className="opaque-block">
                 <div className="flex flex-row w-2/3 mx-auto m-4 w-full">
                     <div className="gradient-ring">
