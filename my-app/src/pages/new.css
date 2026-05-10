@@ -107,53 +107,61 @@ h2{
   justify-content: space-evenly;
 }
 @media (max-width: 768px){
-  .button-bar{
-    flex-direction:column;
+  .button-bar-full{
+    flex-direction: column !important;
   }
   .text-gradient{
       font-size: 3em;
       background-size: 400% 400%;
-
   }
+  
+  .button-bar-left, .button-bar-right{
+    width: 100%;
+    justify-content: center !important;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: .25em;
+    margin-right:0 !important;
+  }
+  .name{
+   margin-left: 0 !important; 
+  }
+
   
 }
 .button-bar-full{
   display:flex;
-  flex-direction:row;
+  flex-direction: row-reverse;
   /* margin-top:1em; */
   /* margin-bottom:1em; */
   min-width: 100%;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
 .button-bar-right{
   display:flex;
   flex-direction:row;
   /* margin-top:1em; */
   margin-bottom:1em;
-  margin-left:auto;
+  
   gap:1em;
   padding:1em;
   /* min-width: 100%; */
   justify-content: right;
+  margin-right:auto;
 }
 .button-bar-left{
   display:flex;
   flex-direction:row;
-  /* margin-top:1em; */
-  /* margin-bottom:1em; */
   gap:1em;
-  padding:.5em;
   font-weight: bolder;
-  /* min-width: 100%; */
   justify-content: left;
-  align-self: flex-end;
+  
 }
 .name{
-  font-size: 4em;
+  font-size: clamp(1rem, 10vw, 4rem);
   color:white;
   margin-left:1em;
   margin-bottom:0;
-  
 }
 .button{
   background-color: #518CA4;
