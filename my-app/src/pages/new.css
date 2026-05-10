@@ -106,6 +106,17 @@ h2{
   min-width: 100%;
   justify-content: space-evenly;
 }
+@media (max-width: 768px){
+  .button-bar{
+    flex-direction:column;
+  }
+  .text-gradient{
+      font-size: 3em;
+      background-size: 400% 400%;
+
+  }
+  
+}
 .button-bar-full{
   display:flex;
   flex-direction:row;
@@ -210,7 +221,7 @@ input[type="text"],input[type="email"],textarea,select{
   animation: gradientMove 10s ease infinite;
 }
 .text-gradient{
-  font-size: 10em;
+  font-size: clamp(5rem, 12vw, 10rem);
   font-weight:bolder;
   background: linear-gradient(270deg, #518CA4, #27c5ff, #749f8f);
   background-size: 600% 600%;

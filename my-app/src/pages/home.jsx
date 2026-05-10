@@ -10,23 +10,23 @@ export default function Home(){
                 
                 <div className="Gradient flex justify-center items-center min-h-dvh " >
                 <div className="opaque-block">
-                <div className="flex flex-row w-2/3 mx-auto m-4 w-full">
+                <div className="flex flex-col mx-auto m-4 w-full md:flex-row sm:max-width-11/12 overflow-hidden">
                     <div className="gradient-ring">
                         <img 
                             src="./images/profile.JPG" 
-                            alt="Sara Vorhaben" 
+                            alt="Sara Vorhaben Profile" 
                             className="rounded-full"
                             />
                     </div>
 
                  
-                    <div className="flex flex-col m-4 justify-center items-center rounded-xl">
-                        <div className="">
-                            <h1 className="text-gradient parisienne-regular">Howdy!</h1> 
-                        </div >   
+                    <div className="flex flex-col m-4 justify-center items-center rounded-xl sm:max-width-11/12 lg:overflow-hidden">
+                
+                            <h1   className=" text-gradient parisienne-regular">Howdy!</h1> 
+                         
                         <p className="welcome_pg">My name is Sara Vorhaben and I'm a Senior Computer Engineering Student at Texas A&M University from Cypress, Texas. I am currently seeking a summer internship, where I can contribute my expertise in software development while gaining hands-on experience in a professional environment. Through my classes and projects, I've built a strong foundation in C++, Python, UX Design, and web development, and I would love to be a part of your team!
                             I'm excited to connect and explore opportunities where I can make an impact! If you're looking for a dedicated and driven engineering student, please reach out!</p>   
-                            <div className="button-bar mt-[1em] flex-row">
+                            <div className="button-bar mt-[1em]  ">
                                 <button className="gradient-button"><Link to="/portfolio">Projects</Link></button>
                                 <button className="gradient-button"><Link to="/qualifications">Qualifications</Link></button>
                             </div>
