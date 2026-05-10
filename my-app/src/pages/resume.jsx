@@ -75,7 +75,7 @@ export default function Resume(){
             </p>
             </div>
         </div>
-        <div className="flex flex-row bg-[#333333] justify-between text-white text-center w-full font-serif p-0">
+        <div className="flex flex-row bg-black justify-between text-white text-center w-full font-serif p-0">
         <Contact/>
         </div>
     </div>
