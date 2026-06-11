@@ -2,14 +2,14 @@ import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import FunBackground from "../components/FunBackground";
 
-
 export default function Home(){
+   
     return(<>
     
                 <Title titleName="Sara Vorhaben" />
                 
-                <div className="Gradient flex justify-center items-center min-h-dvh " >
-                <div className="opaque-block">
+                <div className="Gradient flex flex-col justify-center items-center min-h-dvh " >
+                <div className="opaque-block ">
                 <div className="flex flex-col mx-auto m-4 w-full md:flex-row sm:max-width-11/12 overflow-hidden">
                     <div className="gradient-ring">
                         <img 
@@ -35,8 +35,22 @@ export default function Home(){
                     </div>
 
                     
-</div>
                     </div>
+                    
+
+                  
+
+                    <div className="opaque-block w-full text-center">
+                        <p className="quote">Be Better Than Yesterday &hearts; </p>
+                        
+                    </div>
+                    </div>
+
+                 
+      
+
+
+                
     </>
     )
 }
