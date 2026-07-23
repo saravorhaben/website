@@ -57,6 +57,23 @@ export default function Technical(){
                 <a className="button"  href="https://legion-tamu-7a09206fbac4.herokuapp.com/">Legion Site</a>
                 </div>
             </div>
+            <div className="block">
+                <div
+                    className="flex items-center justify-center bg-gray-400 rounded-xl text-white font-bold"
+                    style={{ height: "300px", fontSize: "4em" }}
+                >
+                    M
+                </div>
+                <p><strong>Dungeon Crawler Game</strong></p>
+                <div className= "overlay">
+                    <p>Built a 2D dungeon crawler in C++ with line-of-sight detection for monster entities, grid-based collision detection, and dynamic map memory management.</p>
+                    <p><strong>Dates:</strong> Fall 2023</p>
+                    <p><strong>Technologies: </strong>C++</p>
+                </div>
+                <div className="p-4 flex space-between justify-center text-center">
+                <a className="button"  href="https://github.com/saravorhaben/Dungeon-Game">GitHub</a>
+                </div>
+            </div>
 
         </div>
         
