@@ -1,9 +1,11 @@
 import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import FunBackground from "../components/FunBackground";
+import useInView from "../hooks/useInView";
 
 export default function Home(){
-   
+    const [quoteRef, quoteInView] = useInView();
+
     return(<>
     
                 <Title titleName="Sara Vorhaben" />
@@ -24,8 +26,13 @@ export default function Home(){
                 
                             <h1   className=" text-gradient parisienne-regular">Howdy!</h1> 
                          
-                        <p className="welcome_pg">My name is Sara Vorhaben and I'm a Senior Computer Engineering Student at Texas A&M University from Cypress, Texas. I am currently seeking a summer internship, where I can contribute my expertise in software development while gaining hands-on experience in a professional environment. Through my classes and projects, I've built a strong foundation in C++, Python, UX Design, and web development, and I would love to be a part of your team!
-                            I'm excited to connect and explore opportunities where I can make an impact! If you're looking for a dedicated and driven engineering student, please reach out!</p>   
+                        <p className="welcome_pg">I'm Sara Vorhaben, a Computer Science M.S. student at Texas A&M University, originally from Cypress, Texas.
+
+My work spans both ends of the stack. In C++, I've built object-oriented systems involving line-of-sight algorithms, collision detection, and 3D graphics with OpenGL. On the web side, I've shipped React frontends from Figma designs, integrated REST APIs, and served as product owner on a full-stack Rails application.
+
+What connects them is the part I actually enjoy: breaking down a problem, designing something clean enough that the next person can extend it, and getting it in front of real users.
+
+I'm looking for full-time software engineering roles — C++ or web, I'm genuinely open to both. If you're hiring, I'd love to connect.</p>   
                             <div className="button-bar mt-[1em]  ">
                                 <button className="gradient-button"><Link to="/portfolio">Projects</Link></button>
                                 <button className="gradient-button"><Link to="/qualifications">Qualifications</Link></button>
@@ -33,16 +40,26 @@ export default function Home(){
                             
                     </div>
                     </div>
-
-                    
                     </div>
                     
 
-                  
-
-                    <div className="opaque-block w-full text-center">
-                        <p className="quote">Be Better Than Yesterday &hearts; </p>
-                        
+                    <h2>Projects</h2>
+                    <div className="horizontal space">
+                        <div className="opaque-block ">
+                        <p>j</p>
+                        </div>
+                        <div className="opaque-block ">
+                        <p>p</p>
+                        </div>
+                        <div className="opaque-block ">
+                        <p>d</p>
+                        </div>
+                    </div>
+                    <div
+                        ref={quoteRef}
+                        className={`opaque-block w-full text-center fade-in-section ${quoteInView ? "is-visible" : ""}`}
+                    >
+                        <p className="quote">1% Better Every Day &hearts; </p>
                     </div>
                     </div>
 

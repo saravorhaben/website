@@ -1,7 +1,15 @@
 import Title from "../components/Title";
 import "./new.css";
 import Contact from "./contact";
+import { useEffect } from "react";
 export default function Resume(){
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "//cdn.credly.com/assets/utilities/embed.js";
+        script.async = true;
+        document.body.appendChild(script);
+        return () => document.body.removeChild(script);
+    }, []);
     return(<>
     <Title titleName="Resume"/>
     <div class="Gradient ">
@@ -74,6 +82,14 @@ export default function Resume(){
                 <p>Java, Python, JavaScript, Next.js,  C++, React, Ruby on Rails, Git, Jira, Figma, Tailwind CSS, SQL, Verilog, Github, APIs
             </p>
             </div>
+        
+        <div className="block">
+            <h2>Certifications</h2>
+            <div class="horizontal">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1e8503be-03a7-4f90-9ecf-cb3cfed02f96" data-share-badge-host="https://www.credly.com"></div>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5de380f3-f613-414d-bd92-7215eb0e2d8a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+        </div>
         </div>
         <div className="flex flex-row bg-black justify-between text-white text-center w-full font-serif p-0">
         <Contact/>
