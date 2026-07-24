@@ -6,18 +6,20 @@ export default function Contact(){
                 <div>
                     <h1>I'd love to hear from you! Please reach out! </h1>
                 </div>
-                    <form action="mailto:sara.vorhaben@gmail.com" method="post" encType="text/plain" className="flex flex-col text-start">
-                        <div>
-                        <label id="name">Name:</label>
-                        <input type="text" name="name" required></input>
+                    <form action="mailto:sara.vorhaben@gmail.com" method="post" encType="text/plain" className="flex flex-col gap-4 text-start mt-4">
+                        <div className="flex flex-col gap-1">
+                        <label htmlFor="name" className="font-semibold">Name</label>
+                        <input id="name" type="text" name="name" placeholder="Your name" required></input>
                         </div>
-                        <div>
-                        <label id="email">Email:</label>
-                        <input type="email" name="email" required></input>
+                        <div className="flex flex-col gap-1">
+                        <label htmlFor="email" className="font-semibold">Email</label>
+                        <input id="email" type="email" name="email" placeholder="you@example.com" required></input>
                         </div>
-                        <label id="message">Message:</label>
-                        <textarea name="message" rows="6" required></textarea>
-                        <input type="submit" value="Send" className="button"/>
+                        <div className="flex flex-col gap-1">
+                        <label htmlFor="message" className="font-semibold">Message</label>
+                        <textarea id="message" name="message" placeholder="What would you like to reach out about?" rows="6" required></textarea>
+                        </div>
+                        <input type="submit" value="Send" className="button w-fit self-start"/>
                     </form>
             </div>
             <div className="flex-1 flex items-center justify-center w-1 ">
@@ -35,7 +37,7 @@ export default function Contact(){
                         </div>
                     </div>
             </div>
-           
+
         </div>
         </>
     )
