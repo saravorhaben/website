@@ -27,13 +27,10 @@ export default function Home(){
                 
                             <h1   className=" text-gradient parisienne-regular">Howdy!</h1> 
                          
-                        <p className="welcome_pg">I'm Sara Vorhaben, a Computer Science M.S. student at Texas A&M University, originally from Cypress, Texas.
-
-My work spans both ends of the stack. In C++, I've built object-oriented systems involving line-of-sight algorithms, collision detection, and 3D graphics with OpenGL. On the web side, I've shipped React frontends from Figma designs, integrated REST APIs, and served as product owner on a full-stack Rails application.
-
-What connects them is the part I actually enjoy: breaking down a problem, designing something clean enough that the next person can extend it, and getting it in front of real users.
-
-I'm looking for full-time software engineering roles — C++ or web! If you're hiring, I'd love to connect.</p>   
+                        <p className="welcome_pg">I'm Sara Vorhaben, a Computer Science M.S. student at Texas A&M University (graduating May 2027), originally from Cypress, Texas. 
+                            I focus on full-stack web development: I've shipped React frontends from Figma designs, integrated REST APIs, and served as product owner on a full-stack Rails application.
+                             What I enjoy most is breaking down a problem, designing something clean enough that the next person can extend it, and getting it in front of real users. 
+I'm looking for full-time software engineering roles! If you're hiring, I'd love to connect.</p>   
                             <div className="button-bar mt-[1em]  ">
                                 <button className="gradient-button"><Link to="/portfolio">Projects</Link></button>
                                 <button className="gradient-button"><Link to="/qualifications">Qualifications</Link></button>
@@ -46,27 +43,6 @@ I'm looking for full-time software engineering roles — C++ or web! If you're h
 
                     <h2 className="text-white stack-sans-text-sans pt-4 pl-4">Featured Projects</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 w-full">
-                        <div className="block">
-                            <div
-                                className="flex items-center justify-center bg-gray-400 rounded-xl text-white font-bold"
-                                style={{ height: "300px", fontSize: "4em" }}
-                            >
-                                M
-                            </div>
-                            <p><strong>Dungeon Crawler Game</strong></p>
-                            <div className="overlay">
-                                <div className="horizontal"><p>C++</p><p>|</p><p>Fall 2023</p></div>
-                                <ul>
-                                    <li>Implemented a line of sight algorithm that lets monster entities detect players not blocked by wall geometry</li>
-                                    <li>Developed grid collision detection and bounds checking to validate every entity move against terrain and map limits</li>
-                                    <li>Managed dynamic 2D map memory across runtime resizing with leak-free deallocation</li>
-                                </ul>
-                            </div>
-                            <div className="p-4 flex space-between justify-center text-center">
-                                <a className="button" href="https://github.com/saravorhaben/Dungeon-Game">GitHub</a>
-                            </div>
-                        </div>
-
                         <div className="block">
                             <img src="./images/Legion.png" alt="Legion Logo"/>
                             <p><strong>Legion Men's Organization Website</strong></p>
@@ -97,6 +73,23 @@ I'm looking for full-time software engineering roles — C++ or web! If you're h
                             </div>
                             <div className="p-4 flex space-between justify-center text-center">
                                 <a className="button" href="https://github.com/saravorhaben/SportStats/">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div className="block">
+                            <img src="./images/wranglers.png" alt="Team Logo"/>
+                            <p><strong>School Pick Up System</strong></p>
+                            <div className="overlay">
+                                <div className="horizontal"><p>Senior Capstone, Backend Lead</p><p>|</p><p>Node.js, Supabase</p><p>|</p><p>Jan 2026 - May 2026</p></div>
+                                <ul>
+                                    <li>Implemented a pickup system that reduced the time to pick up students by 25%</li>
+                                    <li>Developed the relational schema in Supabase, built the Node.js server and API layer</li>
+                                    <li>Implemented authentication and role-based access for school staff and parents</li>
+                                </ul>
+                            </div>
+                            <div className="p-4 flex space-between justify-center text-center">
+                                <a className="button" href="https://github.com/saravorhaben/Team3-The-Wranglers-Capstone-Repo">GitHub</a>
+                                <a className="button" href="https://thewranglers.onrender.com/">Website</a>
                             </div>
                         </div>
                     </div>
